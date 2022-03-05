@@ -1,1 +1,52 @@
 @import url(./reset.css);
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffff88;
+}
+
+.wrapper {
+  padding: 30px;
+  border: 3px solid black;
+  background-color: #fcfcaee5;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 48px;
+  color: #383836;
+  margin-bottom: 20px;
+}
+.number {
+  font-size: 100px;
+  padding: 50px;
+}
+.buttons {
+}
+.btn {
+  display: inline-block;
+
+  font-size: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  color: #383836;
+  margin: 15px;
+  margin-bottom: 25px;
+  padding: 15px 25px;
+  border: 1px solid #383836;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #383836;
+  color: #fff;
+}
